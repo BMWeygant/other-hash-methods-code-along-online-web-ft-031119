@@ -10,5 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
- groceries.each.values
+ groceries.each do |hash, values|
+
+ end
 end
