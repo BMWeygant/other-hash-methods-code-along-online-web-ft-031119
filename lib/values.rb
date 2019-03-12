@@ -12,5 +12,6 @@ def get_the_values(groceries)
   #code your solution here!
  groceries.each do |keys, values|
 #binding.pry
+groceries[keys][values]
  end
 end
