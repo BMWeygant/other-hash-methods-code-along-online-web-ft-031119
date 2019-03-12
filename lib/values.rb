@@ -10,6 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  new_array = []
-  new_array << groceries.each.values
+ groceries.each.values
 end
